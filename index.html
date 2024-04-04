@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nav Bar</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/specimen/Dosis?query=dosis"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+  </head>
+  <body>
+    <header class="main">
+      <div class="navbar">
+        <img src="images/logo-dark-blue.png" alt="logo" />
+        <div class="search">
+          <form>
+            <button class="btn-search" style="border: none;" type="submit"><i class="fa fa-search"></i></button>
+            <input style="border: none;"  type="text" placeholder="Search products..." name="search" >
+    
+            <button class="btn-category">All Category</button>
+            <!-- <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div> -->
+          </form>
+        </div>
+        <ul style="font-family: 'dosis';">
+          <li>HOME</li>
+          
+          <li>SHOP</li>
+          <li>BLOG</li>
+          <li>PAGES</li>
+          <li>ABOUT</li>
+          <li>CONTACT</li>
+          <li><img class="user" src="images/user.png" /></li>
+          <li><img class="heart" src="images/heart.png" /></li>
+          <li><img class="bag" src="images/market.png" /></li>
+          <li><img class="menus" src="images/menus.png" /></li>
+        </ul>
+      </div>
+      <div class="slider" style="overflow: hidden;">
+        <!-- <img src="images/slider1.jpg"> -->
+        <div class="text">
+          <h6 style="padding: 5px; font-size: 14px;">TRANDING 2023</h6>
+          <h2 style="padding: 5px; font-size: 70px; font-weight: 200; ">
+            INTERIOR DESIGNS
+          </h2>
+          <p style="padding: 5px; font-size: 14px;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,
+            quae.
+          </p>
+          <a
+            style="padding: 5px; line-height: 55px; font-weight: 300;"
+            class="buy"
+            href="#"
+            >BUY NOW</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <div class="category">
+      <div class="item-1">
+        <h3>FURNITURE</h3>
+        <h5>954 Products</h5>
+        <a href="#">SHOP NOW</a>
+      </div>
+      <div class="item-2">
+        <h3>CLOCKS</h3>
+        <h5>710 Products</h5>
+        <a href="#">SHOP NOW</a>
+      </div>
+      <div class="item-3">
+        <h3>ACCESSORIES</h3>
+        <h5>954 Products</h5>
+        <a href="#">SHOP NOW</a>
+      </div>
+      <div class="item-4">
+        <h3>LIGHTING</h3>
+        <h5>184 Products</h5>
+        <a href="#">SHOP NOW</a>
+      </div>
+      <div class="item-5">
+        <h3>TOYS</h3>
+        <h5>245 Products</h5>
+        <a href="#">SHOP NOW</a>
+      </div>
+    </div>
+
+    <div class="BEST-SELLING-PRODUCTS">
+      <div class="text">
+        <div class="heading" style="font-size: 35px;">BEST SELLING PRODUCTS </div>
+        <div class="list" style="font-size: 16px;">
+          <div>ALL</div>
+          <div>FEATURED</div>
+          <div>BEST SELLER</div>
+          <div>SALES</div>
+        </div>
+      </div>
+      <div class="product">
+        <div id="list-n" style="position: relative;">
+          <img src="/images/product-1-1.jpg" />
+          <div class="add"><i style="font-size:24px" class="fa">&#xf290;</i>Add to card</div>  
+          <i id="heart" style="font-size:14px;" class="fa">&#xf08a;</i> 
+          <div class="description">
+            <div id="product-category" >Accessories </div> 
+            <div>Wooden Wall Clock</div>
+            <div>$29</div>
+          </div>
+         
+        </div>
+        <div id="list-n" style="position: relative;" >
+          <img src="/images/product-2-1.jpg" />
+          <div class="add"><i style="font-size:24px" class="fa">&#xf290;</i>Add to card</div>  
+          <i id="heart" style="font-size:14px" class="fa">&#xf08a;</i>
+          <div class="description">
+            <div id="product-category">Furniture</div>
+            <div>Gray Vintage Chair</div>
+            <div>$62</div>
+          </div>
+      
+        </div>
+        <div id="list-n" style="position: relative;">
+          <img src="/images/product-3-1.jpg" />
+          <div class="add"><i style='font-size:24px' class='fa'>&#xf290;</i>Add to card</div>  
+          <i id="heart" style="font-size:14px" class="fa">&#xf08a;</i>
+          <div class="description">
+            <div id="product-category">Furniture</div>
+            <div>Small Gray Table</div>
+            <div>$17</div>
+          </div>
+        
+        </div>
+        <div id="list-n" style="position: relative;">
+          <img src="/images/product-1-1.jpg" /> 
+          <div class="add"><i style="font-size:24px" class="fa">&#xf290;</i>  Add to card</div>  
+          <i id="heart" style="font-size:14px" class="fa">&#xf08a;</i>
+          <div class="description">
+            <div id="product-category">Accessories</div>
+            <div>Cableknit Shawl</div>
+            <div><del>$129</del>  <ins style="text-decoration: none; color: rgb(185, 15, 15);">$99</ins></div>
+          </div>
+
+        </div>
+        <div id="list-n" style="position: relative;">
+          <img src="/images/product-5-1.jpg" />
+          <div class="add"><i style="font-size:24px" class="fa">&#xf290;</i>  Add to card</div> 
+          <i id="heart" style="font-size:14px" class="fa">&#xf08a;</i>
+          <div class="description">
+            <div id="product-category">Accessories</div>
+            <div>Black Vase</div>
+            <div>$29</div>
+          </div>
+    
+        </div>
+        <div id="list-n" style="position: relative;">
+          <img src="/images/product-6-1.jpg" />
+          <div class="add"><i style="font-size:24px" class="fa">&#xf290;</i>Add to card</div>  
+          <i id="heart" style="font-size:14px" class="fa">&#xf08a;</i>
+          <div class="description">
+            <div id="product-category">Furniture</div>
+            <div>Chest Of Drawers</div>
+            <div>$62</div>
+          </div>
+       
+        </div>
+        <div id="list-n" style="position: relative;">
+          <img src="/images/product-7-1.jpg" />
+          <div class="add"><i style="font-size:24px" class="fa">&#xf290;</i>Add to card</div>  
+          <i id="heart" style="font-size:14px" class="fa">&#xf08a;</i>
+          <div class="description">
+            <div id="product-category">Furniture</div>
+            <div>White Table Lamp</div>
+            <div>$17</div>
+          </div>
+       
+        </div>
+        <div id="list-n" style="position: relative;">
+          <img src="/images/product-8-1.jpg" />
+          <div class="add"><i style="font-size:24px" class="fa">&#xf290;</i>Add to card</div>  
+          <i id="heart"  style="font-size:14px" class="fa">&#xf08a;</i>
+          <div class="description">
+            <div id="product-category">Accessories</div>
+            <div>Minimal Circle Clock</div>
+            <div><del>$129</del>  <ins style="text-decoration: none; color: rgb(185, 15, 15);">$99</ins></div>
+          </div>
+        </div>
+        <a href="#">SEE ALL PRODUCTS</a>
+      </div>
+    </div>
+
+    <div class="living">
+      <div class="text">
+        <div><h2>LIVING ROOM FURNITURE</h2></div>
+        <div>Discount 50%</div>
+      </div>
+    </div>
+
+    <div class="news">
+      <div class="text">Latest news</div>
+      <div class="container">
+        <div class="news1">
+          <img src="/images/post1.jpg" />
+          <div class="admin">BY ADMIN</div>
+          <div>Lorem ipsum dolor sit amet.</div>
+        </div>
+
+        <div class="news1">
+          <img src="/images/post2.jpg" />
+          <div class="admin">BY ADMIN</div>
+          <div>Lorem ipsum dolor sit amet.</div>
+        </div>
+        <div class="news1">
+          <img src="/images/post3.jpg" />
+          <div class="admin">BY ADMIN</div>
+          <div>Lorem ipsum dolor sit amet.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="brand">
+      <div><img src="/images/brand1.png" /></div>
+      <div><img src="/images/brand2.png" /></div>
+      <div><img src="/images/brand3.png" /></div>
+      <div><img src="/images/brand4.png" /></div>
+      <div><img src="/images/brand5.png" /></div>
+      <div><img src="/images/brand6.png" /></div>
+      <div><img src="/images/brand7.png" /></div>
+    </div>
+
+    <div class="instagram">
+      <div><img src="/images/insta20.jpg" />  </div>
+      <div><img src="/images/insta21.jpg" /></div>
+      <div><img src="/images/insta22.jpg" /></div>
+      <div><img src="/images/insta23.jpg" /></div>
+      <button><a href="#" class="fa fa-instagram"></a> Instagram</button>
+      <div><img src="/images/insta24.jpg" /></div>
+      <div><img src="/images/insta25.jpg" /></div>
+      <div><img src="/images/insta26.jpg" /></div>
+      <div><img src="/images/insta27.jpg" /></div>
+    </div>
+
+    <div class="services">
+      <div class="delivery">
+        <div><img src="/images/hand-truck.png" /></div>
+        <div class="text">
+          <div>FAST AND FREE DELIVERY</div>
+          <div>Free delivery for all orders over $140</div>
+        </div>
+      </div>
+      <div class="delivery">
+        <div><img src="/images/support (1).png" /></div>
+        <div class="text">
+          <div>24/7 CUSTOMER SUPPORT</div>
+          <div>Friendly 24/7 customer support</div>
+        </div>
+      </div>
+      <div class="delivery">
+        <div><img src="/images/shield.png" /></div>
+        <div class="text">
+          <div>MONEY BACK GUARANTEE</div>
+          <div>We return money within 30 days</div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <footer>
+      <div class="top-contain">
+        <div>
+          <h3 style="font-size: 26px;">DON'T MISS THE CHANGE TO GET 40% OFF</h3>
+        </div>
+        <div>
+          <h6 style="font-size: 14px; color: #8a8686;">
+            Get the latest products and news update daily in fastest.
+          </h6>
+          <div class="form">
+            <input type="email" placeholder="Your email address" />
+            <button type="submit">JION</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="middle-contain">
+        <div class="uomo">
+          <img
+            style="width: 110px;"
+            src="/images/logo-dark-blue.png"
+          />
+          <div class="address">
+            1418 River Drive, Suite 35 Cottonhall, CA 9622 United States
+          </div>
+          <div class="email">sale@uomo.com</div>
+          <div class="contact">+1 246-345-0695</div>
+          <div class="social-media">
+            <div><a href="#" class="fa fa-facebook"></a></div>
+            <div><a href="#" class="fa fa-twitter"></a></div>
+            <div><a href="#" class="fa fa-instagram"></a></div>
+            <div><a href="#" class="fa fa-youtube"></a></div>
+            <div><a href="#" class="fa fa-pinterest"></a></div>
+          </div>
+        </div>
+
+        <div class="company">
+          <div class="heading">COMPANY</div>
+          <ul>
+            <li>About Us</li>
+            <li>Careers</li>
+            <li>Affiliates</li>
+            <li>Blog</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+
+        <div class="shop">
+          <div class="heading">SHOP</div>
+          <ul>
+            <li>New Arrivals</li>
+            <li>Accessories</li>
+            <li>Men</li>
+            <li>Women</li>
+            <li>Shop All</li>
+          </ul>
+        </div>
+
+        <div class="help">
+          <div class="heading">HELP</div>
+          <ul>
+            <li>Customer Services</li>
+            <li>My Account</li>
+            <li>Find a Store</li>
+            <li>Legal & Privacy</li>
+            <li>Contact</li>
+            <li>Gift Card</li>
+          </ul>
+        </div>
+
+        <div class="time">
+          <div class="heading">OPENING TIME</div>
+          <ul>
+            <li>Mon - Fri: 8AM - 9PM</li>
+            <li>Sat: 9AM - 8PMCareers</li>
+            <li>Sun: Closed</li>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="last-contain">
+        <div>©2023 Uomo</div>
+        <div>United Kingdom | English</div>
+        <div><img src="/images/payment.png"></div>
+      </div>
+    </footer>
+  </body>
+</html>

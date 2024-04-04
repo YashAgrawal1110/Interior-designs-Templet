@@ -1,0 +1,436 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* overflow: hidden; */
+}
+body {
+  position: relative;
+  background-color: white;
+  /* overflow: hidden; */
+}
+.main {
+  width: 100%;
+  overflow: hidden;
+}
+.main .navbar {
+  position: fixed;
+  background-color: white;
+  border-radius: 3px;
+  block-size: 90px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  z-index: 1;
+  padding: 5px 60px;
+  line-height: 50px;
+}
+.main .navbar .search {
+  border: 1px solid #dfd4d4;
+  border-radius: 5px;
+  position: relative;
+  width: 400px;
+  margin-right: 25%;
+}
+.main .navbar form {
+  block-size: 50px;
+}
+.main .navbar form .btn-search {
+  width: 50px;
+  font-size: 25px;
+  background-color: #fff;
+  float: none;
+}
+.main .navbar form .btn-search:hover{
+  color: rgba(197, 53, 53, 0.897);
+}
+.main .navbar form input {
+  font-size: 15px;
+}
+.main .navbar form .btn-category {
+  width: 100px;
+  block-size: 30px;
+  border: none;
+  margin-left: 30px;
+  background-color: #fff;
+}
+.main .navbar ul {
+  display: flex;
+  margin-top: 15px;
+}
+.main .navbar img {
+  margin-top: 10px;
+}
+.main .navbar li {
+  padding-right: 30px;
+  list-style-type: none;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 50px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.main .navbar li .user {
+  width: 25px;
+}
+.main .navbar .heart {
+  width: 25px;
+}
+.main .navbar .bag {
+  width: 25px;
+}
+.main .navbar .menus {
+  width: 25px;
+}
+.main .navbar li:hover{
+  text-decoration: underline red;
+}
+.slider {
+  background-image: url(/images/slider1.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  block-size: 700px;
+  margin-top: 4%;
+  margin-left: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.main .text {
+  position: absolute;
+  top: 40%;
+  left: 11%;
+  word-spacing: 2px;
+  font-family: sans-serif;
+}
+.main .text .buy {
+  text-decoration: none;
+  color: black;
+  border-width: 2px;
+}
+.main .text .buy:hover{
+  color: rgb(164, 39, 39);
+  text-decoration: underline rgb(164, 39, 39);
+}
+.category {
+  box-sizing: border-box;
+  display: grid;
+  padding: 8px 10px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px;
+  grid-template-columns: 40% 30% 30%;
+  gap: 5px;
+  margin-right: 12px;
+}
+.category .item-1 {
+  position: relative;
+  background-image: url(/images/collection_grid_1.jpg);
+  grid-row-start: 1;
+  grid-row-end: 7;
+
+  
+}
+.category h3 {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.category h3:hover{
+  color: rgb(164, 39, 39);
+}
+.category h5 {
+  position: absolute;
+  top: 70px;
+  left: 40px;
+}
+.category a {
+  position: absolute;
+  left: 40px;
+  top: 110px;
+  text-decoration: underline;
+  color: black;
+  opacity: 0;
+}
+.category .item-1:hover a{
+  opacity: 1;
+}
+.category .item-2:hover a{
+  opacity: 1;
+}
+.category .item-3:hover a{
+  opacity: 1;
+}
+.category .item-4:hover a{
+  opacity: 1;
+}
+.category .item-5:hover a{
+  opacity: 1;
+}
+.category .item-2 {
+  position: relative;
+  background-image: url(/images/collection_grid_2.jpg);
+  grid-row-start: 1;
+  grid-row-end: 4;
+
+}
+.category .item-3 {
+  position: relative;
+  background-image: url(/images/collection_grid_3.jpg);
+  grid-row-start: 1;
+  grid-row-end: 4;
+
+}
+.category .item-4 {
+  position: relative;
+  background-image: url(/images/collection_grid_4.jpg);
+  grid-row-start: 4;
+  grid-row-end: 7;
+
+}
+.category .item-5 {
+  position: relative;
+  background-image: url(/images/collection_grid_5.jpg);
+  grid-row-start: 4;
+  grid-row-end: 7;
+
+}
+.BEST-SELLING-PRODUCTS .text {
+  text-align: center;
+  margin: 50px;
+  line-height: 50px;
+}
+.BEST-SELLING-PRODUCTS .list {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.BEST-SELLING-PRODUCTS .list div:hover {
+text-decoration: underline red;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+.BEST-SELLING-PRODUCTS .product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 50px 200px;
+  gap: 30px;
+}
+.BEST-SELLING-PRODUCTS #heart{
+  font-size: 14px;
+  position: absolute;
+  bottom: 12%;
+  right: 10px;
+}
+.BEST-SELLING-PRODUCTS #heart:hover{
+  color: red;
+}
+#product-category {
+  color: #888686;
+  gap: 10px;
+}
+.BEST-SELLING-PRODUCTS .product .description {
+  line-height: 25px;
+}
+.BEST-SELLING-PRODUCTS .add {
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  top: 60%;
+  width: 250px;
+  color: #171642;
+  background-color: white;
+  font-size: 20px;
+  margin: 12%;
+  cursor: pointer;
+}
+.BEST-SELLING-PRODUCTS .product #list-n .add {
+  opacity: 0;
+}
+.BEST-SELLING-PRODUCTS .product #list-n:hover .add {
+  opacity: 1;
+}
+.BEST-SELLING-PRODUCTS .product a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  margin: 30px;
+}
+.living {
+  background-image: url(/images/lookbook-bg.jpg);
+  block-size: 700px;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-left: 10px;
+}
+.living .text {
+  position: absolute;
+  top: 13.3%;
+  left: 730px;
+  font-size: 25px;
+  width: fit-content;
+  font-family: sans-serif;
+  word-spacing: 2px;
+  text-align: center;
+  overflow: hidden;
+}
+.news .text {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 35px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+.news .container {
+  display: flex;
+  margin: 40px 250px;
+  gap: 30px;
+  justify-content: space-evenly;
+}
+.news .admin {
+  color: rgb(144, 144, 144);
+}
+.news .news1 {
+  line-height: 30px;
+}
+.brand {
+  margin: 100px 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.instagram {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+}
+.instagram button{
+  position: absolute;
+  bottom: 45%;
+  left: 47%;
+  width: 100px;
+  block-size: 35px;
+  border: none;
+  opacity: 0;
+}
+.instagram:hover button{
+  opacity: 1;
+  cursor: pointer;
+}
+.services {
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  justify-content: space-evenly;
+ 
+}
+.services .delivery {
+  display: flex;
+  gap: 10px;
+}
+.delivery .text {
+  margin-top: 5px;
+  line-height: 30px;
+}
+.top-contain {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.top-contain .form {
+  display: flex;
+  margin-top: 25px;
+  justify-content: center;
+  gap: 1rem;
+}
+.top-contain .form input {
+  width: 30%;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.7143;
+  color: #141f46;
+  background-color: #fff;
+  border: 1px solid #e4e4e4;
+}
+.top-contain .form button {
+  width: 5%;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.7143;
+  background-color: #141f46;
+  color: #fff;
+  cursor: pointer;
+}
+.middle-contain {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  margin-bottom: 75px;
+}
+.middle-contain .uomo {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.middle-contain .address {
+  margin-top: 50px;
+}
+.middle-contain .email {
+  margin-top: 25px;
+}
+.middle-contain .social-media {
+  margin-top: 25px;
+  display: flex;
+  gap: 20px;
+}
+.middle-contain .social-media a {
+  text-decoration: none;
+  color: #000;
+}
+.middle-contain .social-media a:hover{
+  color: rgb(172, 43, 31);
+  cursor: pointer;
+}
+.middle-contain .company {
+  flex-direction: column;
+}
+.middle-contain .heading {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.middle-contain li {
+  list-style: none;
+  line-height: 35px;
+}
+.middle-contain li:hover{
+  color: rgb(172, 43, 31);
+  border-bottom: 1px solid rgb(172, 43, 31) ;
+  cursor: pointer;
+}
+.last-contain {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(104, 102, 102);
+  padding: 30px 100px;
+}
+.last-contain img{
+  cursor: pointer;
+}
+
+/* @media screen and (max-width:1750px){
+    
+  .main .navbar img{
+    position: fixed;
+  }
+  .main .navbar .search{
+ position: fixed;
+  }
+  .main .navbar ul{
+
+  }
+  .main .navbar li{
+    block-size: 25px;
+  }
+} */
